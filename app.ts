@@ -1,12 +1,9 @@
-function add(n1: number, n2: number) {
-  // if (typeof n1 !== 'number' || typeof n2 !== 'number') {
-  //   throw new Error('Incorrect input!');
-  // }
-  return n1 + n2;
+class Departement {
+  name:string;
+
+  constructor(n:string) {
+    this.name = n;
+  }
 }
 
-const number1 = 5;
-const number2 = 2.8;
-
-const result = add(number1, number2);
-console.log(result);
+const accounting = new Departement("Accounting");
