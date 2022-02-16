@@ -8,10 +8,7 @@ const magicien : Personnage = {
   age:45
 }
 
-
-const user = {
-  name: "Daniel",
-  age: 26,
-};
-
-user.location; // returns undefined
+type Perso = {
+  nom:string,
+  job:string 
+}
