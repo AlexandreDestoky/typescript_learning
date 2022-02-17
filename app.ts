@@ -3,12 +3,13 @@ interface Personnage {
   age:number
 }
 
-const magicien : Personnage = {
-  nom:"Gandalf",
-  age:45
+type Perso = {
+  nom : string,
+  age: number | string,
+  status ?: "marie" | "celibataire"
 }
 
-type Perso = {
-  nom:string,
-  job:string 
-}
+const benoit:Perso = {
+  nom:"Benoit",
+  age:45,
+};
